@@ -6,10 +6,6 @@ const addButton = document.getElementById('add');
 
 const addResults = document.getElementById('add-results');
 
-console.log(additionField);
-console.log(additionField2);
-console.log(addResults);
-console.log(addButton);
 
 addButton.addEventListener('click', () => {
     const fieldValue = Number(additionField.value);
