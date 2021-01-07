@@ -9,45 +9,58 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body id="page">
     <header>
         <div class="gutter-right logo">
-            <img src="assets/big-logo.png"/>
+            <img src="assets/big-logo.png" />
         </div>
     </header>
-    <main>
-        <section class="main-section">
-            <img class="main-logo" src="assets/alchemy-logo.png"/>
-            <h2 id="welcome">
-                Welcome to Alchemy Bootstrap!
-            </h2>
+    <main id="main">
+        <section id="addition">
+            <input id="add-input-1" type="number">
+            +
+            <input id="add-input-2" type="number">
 
-            <button id="change">Make Change!</button>
-            <button id='button2'>OMGGGGGG!!!!!!</button>
-            <button id="button3">YEEEEEEEAH</button>
+            <button id="add">ADD!</button>
 
-            <input id="user-input" type="text">
-            <content>
-            <p id="words">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
-
+            <div id="add-results"></div>
         </section>
+
+        <section id="subtraction">
+            <input id="subtract-input-1" type="number">
+            -
+            <input id="subtract-input-2" type="number">
+
+            <button id="subtract">SUBTRACT!</button>
+
+            <div id="subtract-results"></div>
+        </section>
+
+        <section id="multi">
+            <input id="mult-input-1" type="number">
+            -
+            <input id="mult-input-2" type="number">
+
+            <button id="mult">MULTIPLY!</button>
+
+            <div id="mult-results"></div>
+        </section>
+
+        <section id="div">
+            <input id="divide-input-1" type="number">
+            -
+            <input id="divide-input-2" type="number">
+
+            <button id="divide">DIVIDE!</button>
+
+            <div id="divide-results"></div>
+        </section>
+
+
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>

@@ -1,0 +1,47 @@
+#main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+}
+
+#addition {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#subtraction {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#multi {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#div {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#add {
+    margin: 20px;
+    background-color: crimson;
+}
+
+#subtract {
+    margin: 20px;
+    background-color: crimson;
+}
+
+#mult {
+    margin: 20px;
+    background-color: crimson;
+}
+
+#divide {
+    margin: 20px;
+    background-color: crimson;
+}
