@@ -1,7 +1,4 @@
-import { getSum } from './mathUtils.js';
-import { getDiff } from './mathUtils.js';
-import { getProd } from './mathUtils.js';
-import { getQuot } from './mathUtils.js';
+import { getSum, getDiff, getProd, getQuot } from './mathUtils.js';
 
 /////////////// Addition Button ///////////////
 const additionField = document.getElementById('add-input-1');
@@ -17,6 +14,7 @@ export function myClickHandler() {
     addResults.textContent = result;
 }
 
+
 /////////////// Subtraction Button ///////////////
 const subtractionField = document.getElementById('subtract-input-1');
 const subtractionField2 = document.getElementById('subtract-input-2');
@@ -31,6 +29,7 @@ export function myClickHandlerTwo() {
     subtractResults.textContent = diff;
 }
 
+
 /////////////// Multiplication Button ///////////////
 const multField = document.getElementById('mult-input-1');
 const multField2 = document.getElementById('mult-input-2');
@@ -44,6 +43,7 @@ export function myClickHandlerThree() {
 
     multResults.textContent = product;
 }
+
 
 /////////////// Division Button ///////////////
 const divField = document.getElementById('divide-input-1');
