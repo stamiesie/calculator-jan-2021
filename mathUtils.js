@@ -17,3 +17,21 @@ export function getProd(numOne, numTwo) {
 export function getQuot(numOne, numTwo) {
     return numOne / numTwo;
 }
+
+
+/////////////// TESTS ///////////////
+export function getAdd(numOne, numTwo) {
+    return numOne + numTwo;
+}
+
+export function getSub(numOne, numTwo) {
+    return numOne - numTwo;
+}
+
+export function getMult(numOne, numTwo) {
+    return numOne * numTwo;
+}
+
+export function getDiv(numOne, numTwo) {
+    return numOne / numTwo;
+}
